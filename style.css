@@ -13,18 +13,17 @@
 
 body {
   background-color: var(--cor-de-fundo);
-  color: var (--branco-principal);
+  color: var(--branco-principal);
   font-family: var(--fonte-principal);
-  font-size: 16pix;
+  font-size: 16px;
   font-weight: 400;    
 }
 
 .principal {
-    background-image: url(img/Background.png);
+    background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
-    align-items: center;
-    text-align: center;
+    
 }
 
 *{margin: 0;
@@ -39,7 +38,7 @@ padding: 0;
 }
 
 .container__botao {
-   background-color: var (--botao-azul);
+   background-color: var(--botao-azul);
    border-radius: 5px;
    padding: 1em;
    color: var(--branco-principal);
